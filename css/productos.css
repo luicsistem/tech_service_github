@@ -1,0 +1,47 @@
+#productos h3, h4 {
+    text-align: center;
+}
+
+#productos .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#productos article {
+    margin: 15px;
+    padding-top: 10px;
+    
+}
+#productos p {
+    padding: 15px;
+}
+#productos img {
+    width: 100%;
+   width: 170px;
+   height: 170px;
+   border-radius: 5%;
+   border: 2px solid #87CEFA;
+}
+
+#p-tipos h3 {
+    padding-bottom: 15px;
+   
+}
+#productos {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+@media (min-width:480px){
+    #productos .contenedor {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px){
+    #productos .contenedor {
+        width: auto;
+    }
+}
