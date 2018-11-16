@@ -27,3 +27,20 @@
     font-size: 40px;
     }
 }
+
+@media (min-width:768px){
+    #banner {
+        height: 300px;
+        overflow: hidden;
+    }
+    #banner img {
+    height: auto;
+    margin-top: -100px;
+    }
+}
+
+@media (min-width:1024px){
+    #banner img {
+        margin-top: -200px;
+    }
+}
